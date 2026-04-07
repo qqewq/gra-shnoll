@@ -1,0 +1,23 @@
+# Параметры по умолчанию для симуляции и навигации
+navigation:
+  particle_count: 1000
+  grid_resolution_m: 10.0
+  histogram_window: 6000
+  lambda_base: 100.0
+  gamma_gra: 0.1
+
+p_adic:
+  primes: [97, 101, 103]
+  kappa: 6.28318530718  # 2π
+
+gra:
+  levels: 3
+  alpha: 0.7
+  eta: 0.001
+  D: 0.5
+
+cosmophysics:
+  use_real_ephemeris: true
+  fallback_model: "sinusoidal_approx"
+  solar_freq_hz: 1.1574074e-05  # 1/24h
+  lunar_freq_hz: 4.243055e-07   # 1/27.32d
